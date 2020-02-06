@@ -14,8 +14,9 @@ def index(request: HttpRequest) -> HttpResponse:
     <ul>
         <li><a href="https://djangocas.dev/blog/django-cas-ng-example-project/">Step by step to setup a django-cas-ng example project</a></li>
         <li><a href="https://djangocas.dev/blog/python-cas-flask-example/">python-cas Flask example</a></li>
-        <li><a href="https://djangocas.dev/">Project homepage</a></li>
     </ul>
+    <hr>
+    <p><a href="https://djangocas.dev/">Project homepage</a></p>
   </body>
 </html>
         """
