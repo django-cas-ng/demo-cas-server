@@ -28,7 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'django-cas-ng-demo-server.herokuapp.com',
     'localhost',
-    '127.0.0.1'
+    '127.0.0.1',
+    '*',
 ]
 
 
