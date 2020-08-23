@@ -7,7 +7,7 @@ A demo CAS server work with [django-cas-ng/example](https://github.com/django-ca
 
 Demo server URL: https://django-cas-ng-demo-server.herokuapp.com/
 
-Python 3 and Djanog 2.0 are required.
+Python 3 and Django 2.2 are required.
 
 ```
 pip install -r requirements.txt
