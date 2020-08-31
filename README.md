@@ -7,10 +7,32 @@ A demo CAS server work with [django-cas-ng/example](https://github.com/django-ca
 
 Demo server URL: https://django-cas-ng-demo-server.herokuapp.com/
 
-Python 3 and Djanog 2.0 are required.
+Python 3 and Django 2.2 are required.
 
 ```
 pip install -r requirements.txt
 python manage.py runserver
 ```
 
+## Using docker
+
+```bash
+docker-compose up -d
+```
+
+## Test
+
+Open `http://127.0.0.1:8000/cas/login`
+
+---
+[**NOTE**]:
+ 
+Before run server, create db and a superuser:
+
+ - `python manage.py migrate`
+ - `python manage.py createsuperuser` 
+ 
+In docker mode:
+
+ - `docker exec -it cas-server python manage.py migrate`
+ - `docker exec -it cas-server python manage.py createsuperuser`
