@@ -1,13 +1,13 @@
-version: '3.4'
+version: '3.9'
 
 services:
-    cas-server:
+    hkey-demo-cas-server:
         build: .
-        image: cas-server:1.0.0
-        container_name: cas-server
+        image: hdce/hkeydemocasserver:1.0.0
+        container_name: hkeydemocasserver
         restart: unless-stopped
         ports:
-          - 8000:8000
+          - 9000:9000
         volumes:
           - /etc/localtime:/etc/localtime:ro
         logging:
