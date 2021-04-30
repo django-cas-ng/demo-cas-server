@@ -12,16 +12,16 @@ jobs:
   build_and_push:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out the repo
-        uses: actions/checkout@v2
-
-      - name: Push to ECR
-        uses: kciter/aws-ecr-action@v3
+      - name: Login to DockerHub
+        uses: docker/login-action@v1
         with:
-          access_key_id: ${{ secrets.PUSH_TO_ECR_AWS_ACCESS_KEY_ID }}
-          secret_access_key: ${{ secrets.PUSH_TO_ECR_AWS_SECRET_ACCESS_KEY }}
-          account_id: ${{ secrets.AWS_ACCOUNT_ID }}
-          repo: ${{ env.REPOSITORY_NAME }}
-          region: ${{ secrets.AWS_DEFAULT_REGION }}
-          tags: latest,${{ github.sha }}
-          create_repo: true
+          username: ${{ secrets.DOCKER_HUB_USERNAME }}
+          password: ${{ secrets.DOCKER_HUB_AUTH_TOKEN }}
+      - name: Build and push
+        id: docker_build
+        uses: docker/build-push-action@v2
+        with:
+          push: true
+          tags: ${{ env.REPOSITORY_NAME }}:latest
+      - name: Image digest
+        run: echo ${{ steps.docker_build.outputs.digest }}
