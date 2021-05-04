@@ -28,3 +28,12 @@ def index(request: HttpRequest) -> HttpResponse:
 
 def ping(request: HttpRequest) -> HttpResponse:
     return HttpResponse("pong", content_type="text/plain")
+
+
+def custom_attributes(user, service):
+    # memberOf=['harvard:ref:courses:ext:1900:ongoing:406122-staff',harvard:ref:courses:ext:2013:fall:328457-enrollees']
+    groups = []
+    for grouper in user.memberOf.all():
+        groups.append(grouper.name)
+    attributes = {"memberOf": groups}
+    return attributes
