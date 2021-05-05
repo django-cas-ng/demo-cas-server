@@ -25,7 +25,11 @@ SECRET_KEY = "#+4_za=by%$u56s*_7kb(5#qwf%c9gld7&!)+3a!n$ac6=@ho8!dce!"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "hkey",  # assign this hostname when running in e.g. docker-compose
+]
 
 
 # Application definition
