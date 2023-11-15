@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "hkey",
     "mama_cas",
+    "sslserver",
 ]
 
 MIDDLEWARE = [

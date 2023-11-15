@@ -20,7 +20,11 @@ docker-compose up
 ```
 python manage.py migrate
 ./demo_data/import.sh
+# HTTP
 python manage.py runserver 9000
+
+# HTTPS
+python manage.py runsslserver 127.0.0.1:9000 &
 ```
 
 ## Default user/passwd combos
@@ -34,6 +38,8 @@ python manage.py runserver 9000
 | joe      | teststudent |
 
 (dr_fauci has 2 courses)
+
+
 
 ## Test
 
