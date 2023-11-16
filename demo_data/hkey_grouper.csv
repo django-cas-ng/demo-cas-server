@@ -1,3 +1,4 @@
+5,harvard:org:schools:dce:apps:opencast:role-huid-hkl-users-opencast
 6,harvard:ref:courses:ext:2013:winter:329878-enrollees
 7,harvard:ref:courses:ext:2013:spring:328484-enrollees
 8,harvard:ref:courses:ext:2013:spring:328479-enrollees
@@ -37,3 +38,9 @@
 44,harvard:ref:courses:ext:2019:spring:539709-staff
 46,harvard:ref:courses:ext:2019:fall:540378-staff
 47,harvard:ref:courses:ext:2019:fall:540378-enrollees
+48,harvard:org:schools:dce:apps:porta:role-admin-users-porta
+49,harvard:org:schools:dce:apps:porta:role-support-users-porta
+50,harvard:ref:courses:ext:2021:fall:589764-staff
+51,harvard:org:schools:dce:apps:doki:role-admin-doki
+52,harvard:org:schools:dce:apps:doki:role-staff-doki
+53,harvard:org:schools:dce:apps:doki:role-user-doki

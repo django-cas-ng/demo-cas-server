@@ -36,6 +36,9 @@ python manage.py runsslserver 127.0.0.1:9000 &
 | producer |  |
 | nancy    |  |
 | joe      | teststudent |
+| dokiadmin| okaydoki   |
+| dokistaff| okaydoki   |
+| dokiuser | okaydoki   |
 
 (dr_fauci has 2 courses)
 
@@ -43,6 +46,6 @@ python manage.py runsslserver 127.0.0.1:9000 &
 
 ## Test
 
-Open `http://127.0.0.1:9000/cas/login`
+Open `https://127.0.0.1:9000/cas/login`
 
 ---
