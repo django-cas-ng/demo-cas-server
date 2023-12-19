@@ -1,6 +1,7 @@
 #!/bin/sh
 
-SCRIPTDIR=$(dirname $(readlink -f $0))
+#SCRIPTDIR=$(dirname $(readlink -f $0))
+SCRIPTDIR=./demo_data
 
 for f in ${SCRIPTDIR}/*.csv; do
   tablename=$(basename $f .csv)

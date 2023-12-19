@@ -23,8 +23,11 @@ WORKDIR /app
 RUN python manage.py migrate
 RUN demo_data/import.sh
 
-EXPOSE 9000
 # HTTP version
-# CMD python manage.py runserver 0.0.0.0:9000
+EXPOSE 9000
+CMD python manage.py runserver 0.0.0.0:9000
 # HTTPS version
-CMD python manage.py runsslserver 0.0.0.0:9000
+EXPOSE 9001
+CMD python manage.py runsslserver 0.0.0.0:9001
+
+RUN apk update && apk upgrade

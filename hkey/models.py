@@ -23,6 +23,9 @@ class Huser(AbstractUser):
         verbose_name="defaultPrincipalId",
         unique=True,
     )
+    netId = models.CharField(
+        max_length=16, help_text="netID", verbose_name="netId", unique=True, null=True, blank=True, default=None
+    )
 
     memberOf = models.ManyToManyField(
         Grouper,
