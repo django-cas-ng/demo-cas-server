@@ -1,0 +1,324 @@
+[
+{
+  "model": "hkey.grouper",
+  "pk": 5,
+  "fields": {
+    "name": "harvard:org:schools:dce:apps:opencast:role-huid-hkl-users-opencast"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 6,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2013:winter:329878-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 7,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2013:spring:328484-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 8,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2013:spring:328479-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 9,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2013:fall:328995-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 10,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2013:fall:328457-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 11,
+  "fields": {
+    "name": "harvard:ref:courses:ext:1900:ongoing:406122-staff"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 12,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2014:fall:349239-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 13,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2014:fall:349892-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 14,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2014:spring:349217-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 15,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2015:fall:358334-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 16,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2015:fall:358998-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 17,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2015:spring:358339-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 18,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2016:fall:397249-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 19,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2016:fall:397316-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 20,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2016:spring:397228-staff"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 21,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2016:spring:397278-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 22,
+  "fields": {
+    "name": "harvard:ref:courses:sum:2019:summer:549252-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 23,
+  "fields": {
+    "name": "harvard:ref:courses:sum:2018:summer_1:525123-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 24,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2018:fall:465457-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 25,
+  "fields": {
+    "name": "harvard:ref:courses:sum:2020:fall:123456-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 26,
+  "fields": {
+    "name": "harvard:ref:courses:sum:2020:fall:123456-instructor"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 27,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2019:fall:542089-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 28,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2019:fall:541245-staff"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 29,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2020:fall:565435-staff"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 30,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2020:fall:565435-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 33,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2018:spring:465411-instructor"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 34,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2018:spring:465411-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 35,
+  "fields": {
+    "name": "harvard:org:schools:dce:apps:porta-admin"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 36,
+  "fields": {
+    "name": "harvard:org:schools:dce:apps:porta-staff"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 37,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2019:fall:541245-staff"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 38,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2019:fall:541245-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 39,
+  "fields": {
+    "name": "harvard:ref:courses:colgsas:2019:fall:531001-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 40,
+  "fields": {
+    "name": "harvard:ref:courses:colgsas:2019:fall:531001-staff"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 41,
+  "fields": {
+    "name": "harvard:ref:courses:colgsas:2019:fall:531001-guest"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 42,
+  "fields": {
+    "name": "harvard:org:schools:dce:apps:opencast:role-video-admin-users-opencast"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 43,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2019:spring:539709-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 44,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2019:spring:539709-staff"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 46,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2019:fall:540378-staff"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 47,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2019:fall:540378-enrollees"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 48,
+  "fields": {
+    "name": "harvard:org:schools:dce:apps:porta:role-admin-users-porta"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 49,
+  "fields": {
+    "name": "harvard:org:schools:dce:apps:porta:role-support-users-porta"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 50,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2021:fall:589764-staff"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 51,
+  "fields": {
+    "name": "harvard:org:schools:dce:apps:doki:role-admin-doki"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 52,
+  "fields": {
+    "name": "harvard:org:schools:dce:apps:doki:role-staff-doki"
+  }
+},
+{
+  "model": "hkey.grouper",
+  "pk": 53,
+  "fields": {
+    "name": "harvard:org:schools:dce:apps:doki:role-user-doki"
+  }
+}
+]
