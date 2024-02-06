@@ -30,6 +30,10 @@ RUN python manage.py loaddata fixtures/hkey_huser.json
 RUN python manage.py loaddata fixtures/hkey_memberof.json
 # RUN demo_data/import.sh
 
-# HTTPS version
+# HTTP version
 EXPOSE 9001
-CMD python manage.py runsslserver 0.0.0.0:9001
+CMD python manage.py runserver 0.0.0.0:9000
+
+# HTTPS version
+# EXPOSE 9001
+# CMD python manage.py runsslserver 0.0.0.0:9001

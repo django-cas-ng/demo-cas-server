@@ -23,6 +23,10 @@ class Huser(AbstractUser):
         verbose_name="defaultPrincipalId",
         unique=True,
     )
+    user = models.CharField(
+        max_length=16, help_text="User", verbose_name="user", unique=True, null=True, blank=True, default=None
+    )
+
     netId = models.CharField(
         max_length=16, help_text="netID", verbose_name="netId", unique=True, null=True, blank=True, default=None
     )

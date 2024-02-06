@@ -78,17 +78,17 @@ WSGI_APPLICATION = "casdemoserver.wsgi.application"
 
 MAMA_CAS_SERVICES = [
     {
-        "SERVICE": "^http://.*",
+        "SERVICE": "^https?://.*",
         "CALLBACKS": [
             "mama_cas.callbacks.user_model_attributes",
             "casdemoserver.views.custom_attributes",
         ],
         "LOGOUT_ALLOW": True,
         # see https://django-mama-cas.readthedocs.io/en/latest/settings.html
+        # 'LOGOUT_URL': 'http://localhost:8000/cas/logout',
         # 'LOGOUT_URL': 'https://www.example.com/logout',
-    }
+    },
 ]
-
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
@@ -140,3 +140,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = "/static/"
+
+# doki debug
+SESSION_COOKIE_AGE = 300
+MAMA_CAS_ALLOW_AUTH_WARN = True
+MAMA_CAS_ENABLE_SINGLE_SIGN_OUT = True
