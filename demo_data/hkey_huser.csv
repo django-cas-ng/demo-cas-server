@@ -1,10 +1,12 @@
-1,pbkdf2_sha256$100000$VtrM7MuxDzcJ$zu8GA37cIwgcHRlOiTgMbtsMoUA1a7z6vofaLjn86oM=,"2020-08-04 23:34:38.991081",1,admin,admin,"","",1,1,"2020-06-15 18:46:51",123333,12121212
-2,pbkdf2_sha256$100000$vpLqcspQX5JY$FkmPtG7d7AbKZRwXwEwnIr5MF7Ti5Nh2bdavIqRTBFk=,"2020-07-20 21:49:03.312501",0,nancy,nancy,gray,nancy@example.com,0,1,"2020-06-15 19:00:13",123456789,123456789
-3,pbkdf2_sha256$100000$BBlXz2KTGLEl$QW5HJcJ71LXJl/LCrljS2qLYeYPCfuc3irdZBh/dBX8=,"2021-04-12 17:35:51.676268",0,joe,Joe,Blow,joe_blow@example.com,0,1,"2020-06-15 19:11:06",123xid567,
-4,pbkdf2_sha256$100000$0vnPFeuunzAP$EjQYw+mJtM2xiDZmaY2ify3XLwbiHmEFl1UGeM23VTs=,"2021-04-12 17:35:09.763324",0,dr_fauci,Anthony,Fauci,tony@example.edu,0,1,"2020-06-17 23:16:43",7778889999,7778889999
-5,pbkdf2_sha256$100000$tfuAvIbn11g5$ndX/mlBaoelMOtY/pTIyE4I9sxqtwS/j1DiWpt2zux0=,"2020-07-31 20:52:20.446621",0,producer,The,Producer,producer@studio.tv,1,1,"2020-07-17 16:19:58",12345567,12345567
-6,pbkdf2_sha256$100000$IIBHRthVIi5O$tAfAxWwhldheReyIqA6XR64vbUvwJULQfh68gG8SRAI=,"2020-07-28 21:22:35.093330",0,dr_birx,Deborah,Birx,birx@whats.up,0,1,"2020-07-24 22:40:19",66613369,66613369
-7,pbkdf2_sha256$150000$gokOBrztYYha$Cbefreo0TC13zKWNXRRPWYwKuLfPK+q3F5O+1t3T0QQ=,"2023-02-27 21:24:21.665202",0,support,Tech,Support,,0,1,"2022-10-14 19:48:05",11223344,11223344
-8,pbkdf2_sha256$150000$1RhoRzwzI1Jd$M7UXl93tY1vk5ryey7LOcAFnTgbeQ2LFaQXp/UEAAEM=,,0,dokiadmin,Admin,Doki,,0,1,2023-11-14 23:09:33,56785678,56785678
-9,pbkdf2_sha256$150000$RNU2zu9sY5Zb$wzXdehfW1cmeJETo5bcXvRC3tm644yEF/9CZXR25jjA=,,0,dokistaff,Producer,Doki,,0,1,2023-11-14 23:12:16,567891234,567891234
-10,pbkdf2_sha256$150000$TnW5Niqjb931$WdmLN/G1jocJ1nE5olNZ6sm6/Ze7DcncSbfwSftqJ/o=,,0,dokiworker,Worker,Doki,,0,1,2023-11-14 23:13:02,567891233,567891233
+id,password,last_login,is_superuser,username,first_name,last_name,email,is_staff,is_active,date_joined,harvardEduIdNumber,defaultPrincipalId,netId,user
+1,pbkdf2_sha256$150000$fnsuA1cFlQ1t$1DPvW7t+gaadna80iYbWHtz1/aDbW3Bi3NmOX6gLW5o=,"2024-03-04 22:11:54.055034",1,admin,admin,"","",1,1,"2020-06-15 18:46:51",123333,12121212,hkey0001,hkey0001
+2,pbkdf2_sha256$100000$vpLqcspQX5JY$FkmPtG7d7AbKZRwXwEwnIr5MF7Ti5Nh2bdavIqRTBFk=,"2020-07-20 21:49:03.312501",0,nancy,nancy,gray,nancy@example.com,0,1,"2020-06-15 19:00:13",123456789,123456789,,
+3,pbkdf2_sha256$100000$BBlXz2KTGLEl$QW5HJcJ71LXJl/LCrljS2qLYeYPCfuc3irdZBh/dBX8=,"2021-04-12 17:35:51",0,joe,Joe,Blow,joe_blow@example.com,0,1,"2020-06-15 19:11:06",123xid567,56789888,joeblow1,joeblow1
+4,pbkdf2_sha256$150000$V3oZGN3io467$Zc1Fz6KlesXjuvvVBmtHeBqwdj0+iDcno6roGD5PdDA=,"2022-12-07 22:23:44",0,dr_fauci,Anthony,Fauci,tony@example.edu,0,1,"2020-06-17 23:16:43",77788899,77788899,porta003,porta003
+5,pbkdf2_sha256$150000$GxT9NvnW7YGO$o3LkwJgw26HDuG2Gmr8p8SKQ33q7z0G0KmesFKOrO1Y=,"2024-02-05 15:55:54.529773",0,producer,The,Producer,producer@studio.tv,1,1,"2020-07-17 16:19:58",12345567,12345567,porta002,porta002
+6,pbkdf2_sha256$150000$SuiYlxeJnTOe$bZQSXaYsQCKMFim4xX0km/vcNL7TOSpQWMh4f+NPK90=,"2022-10-13 20:27:04",0,dr_birx,Deborah,Birx,birx@whats.up,0,1,"2020-07-24 22:40:19",66613369,66613369,drdbirx,drdbirx
+7,pbkdf2_sha256$150000$gokOBrztYYha$Cbefreo0TC13zKWNXRRPWYwKuLfPK+q3F5O+1t3T0QQ=,"2024-01-24 18:28:11.754439",0,support,Tech,Support,"",0,1,"2022-10-14 19:48:05",11223344,11223344,porta001,porta001
+8,pbkdf2_sha256$150000$1RhoRzwzI1Jd$M7UXl93tY1vk5ryey7LOcAFnTgbeQ2LFaQXp/UEAAEM=,"2024-02-29 20:43:55.931565",0,dokiadmin,Admin,Doki,admin@doki.edu,0,1,"2023-11-14 23:09:33",56785678,56785678,abc12345,abc12345
+9,pbkdf2_sha256$150000$RNU2zu9sY5Zb$wzXdehfW1cmeJETo5bcXvRC3tm644yEF/9CZXR25jjA=,"2024-01-22 17:52:58.968643",0,dokistaff,Producer,Doki,producer@doki.edu,0,1,"2023-11-14 23:12:16",567891234,567891234,doki0002,doki0002
+10,pbkdf2_sha256$150000$TnW5Niqjb931$WdmLN/G1jocJ1nE5olNZ6sm6/Ze7DcncSbfwSftqJ/o=,"2024-02-16 21:28:45.230308",0,dokiworker,Worker,Doki,worker@doki.edu,0,1,"2023-11-14 23:13:02",567891233,567891233,doki0001,doki0001
+11,pbkdf2_sha256$150000$ihyf2IcGkpRS$Ia8vvgcjwls3JOWsYphCeQnklqz3yNLq4FUWemoddgc=,"2024-02-13 22:41:02.610058",0,worker@doki.com,Worker1,Doki,worker@doki.com,0,1,"2024-02-13 22:11:23",,12345667,doki0003,doki0003
