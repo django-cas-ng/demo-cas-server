@@ -80,7 +80,8 @@ MAMA_CAS_SERVICES = [
     {
         "SERVICE": "^https?://.*",
         "CALLBACKS": [
-            "mama_cas.callbacks.user_model_attributes",
+            # "mama_cas.callbacks.user_model_attributes",
+            "hkey.callbacks.user_model_attributes",
             "casdemoserver.views.custom_attributes",
         ],
         "LOGOUT_ALLOW": True,
