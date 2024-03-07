@@ -6,14 +6,17 @@ def index(request: HttpRequest) -> HttpResponse:
 <html>
   <head>
     <title>django-cas-ng and python-cas CAS demo server</title>
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, height=device-height
+      initial-scale=1.0, minimum-scale=1.0">
   </head>
   <body>
     <h1>Welcome to django-cas-ng and python-cas CAS demo server</h1>
     <p>Related posts:</p>
     <ul>
-        <li><a href="https://djangocas.dev/blog/django-cas-ng-example-project/">Step by step to setup a django-cas-ng example project</a></li>
-        <li><a href="https://djangocas.dev/blog/python-cas-flask-example/">python-cas Flask example</a></li>
+        <li><a href="https://djangocas.dev/blog/django-cas-ng-example-project/">Step
+          by step to setup a django-cas-ng example project</a></li>
+        <li><a href="https://djangocas.dev/blog/python-cas-flask-example/">python-cas
+          Flask example</a></li>
     </ul>
     <hr>
     <p><a href="https://djangocas.dev/">Project homepage</a></p>
@@ -24,4 +27,13 @@ def index(request: HttpRequest) -> HttpResponse:
 
 
 def ping(request: HttpRequest) -> HttpResponse:
-    return HttpResponse('pong', content_type="text/plain")
+    return HttpResponse("pong", content_type="text/plain")
+
+
+def custom_attributes(user, service):
+    # memberOf=['harvard:ref:courses:ext:1900:ongoing:406122-staff',harvard:ref:courses:ext:2013:fall:328457-enrollees']
+    groups = []
+    for grouper in user.memberOf.all():
+        groups.append(grouper.name)
+    attributes = {"memberOf": groups}
+    return attributes

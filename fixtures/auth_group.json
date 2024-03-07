@@ -1,0 +1,20 @@
+[
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "harvard:ref:courses:ext:2021:fall:589764-staff",
+    "permissions": []
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 2,
+  "fields": {
+    "name": "ChangeGrouper",
+    "permissions": [
+      26
+    ]
+  }
+}
+]

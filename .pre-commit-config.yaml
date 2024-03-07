@@ -1,0 +1,19 @@
+default_language_version:
+    python: python3.9
+repos:
+  - repo: https://github.com/psf/black
+    rev: 22.3.0
+    hooks:
+      - id: black
+        args:
+          # don't actually format, just exit with 0 (no changes) or 1 (changes needed)
+          - --check
+          - casdemoserver
+          - hkey
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: 3.7.9
+    hooks:
+      - id: flake8
+        args:
+          # don't fail on lines where, for whatever reason, black ignores or doesn't reformat them
+          - --extend-ignore=E501

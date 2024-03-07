@@ -1,0 +1,20 @@
+# ignore all dot files/dirs
+.*
+
+# except for .dockerignore
+# https://codefresh.io/docker-tutorial/not-ignore-dockerignore-2/
+!.dockerignore
+
+# other stuff we don't need in the image
+.github
+*.md
+*.log
+*.toml
+*.yaml
+
+# ignore any existing sqlite3 db file
+db.sqlite3
+
+# only need the base requirements.txt
+requirements*
+!requirements.txt

@@ -1,0 +1,16 @@
+[flake8]
+# these specify which classes of rules we want to apply (https://www.flake8rules.com/)
+select = C,E,F,W,B,B950
+max-line-length = 120
+exclude =
+    .git
+    __pychache
+    .venv
+    venv
+ignore =
+    # black compatablity: allow whitespace before ':'
+    E203
+    # black compatability: allow comments with > 1 leading #
+    E266
+    # black compatability: allow line break before binary operator
+    W503

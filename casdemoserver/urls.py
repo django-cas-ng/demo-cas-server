@@ -15,13 +15,14 @@ Including another URLconf
 """
 from django.conf.urls import include
 from django.conf.urls import url
-from django.contrib import admin
 from django.urls import path
+from django.contrib import admin
+
 from . import views
 
 urlpatterns = [
-    path('', views.index, name='index'),
-    path('ping', views.ping, name='ping'),
-    #path('admin/', admin.site.urls),
-    url(r'^cas/', include('mama_cas.urls')),
+    path("", views.index, name="index"),
+    path("ping", views.ping, name="ping"),
+    path("admin/", admin.site.urls),
+    url(r"^cas/", include("mama_cas.urls")),
 ]

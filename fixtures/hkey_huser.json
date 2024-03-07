@@ -1,0 +1,231 @@
+[
+{
+  "model": "hkey.huser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$fnsuA1cFlQ1t$1DPvW7t+gaadna80iYbWHtz1/aDbW3Bi3NmOX6gLW5o=",
+    "last_login": "2023-12-22T20:34:01.309Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "admin",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-06-15T18:46:51Z",
+    "harvardEduIdNumber": "123333",
+    "defaultPrincipalId": "12121212",
+    "netId": "hkey0001",
+    "user": "hkey0001",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "hkey.huser",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$100000$vpLqcspQX5JY$FkmPtG7d7AbKZRwXwEwnIr5MF7Ti5Nh2bdavIqRTBFk=",
+    "last_login": "2020-07-20T21:49:03.312Z",
+    "is_superuser": false,
+    "username": "nancy",
+    "first_name": "nancy",
+    "last_name": "gray",
+    "email": "nancy@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-06-15T19:00:13Z",
+    "harvardEduIdNumber": "123456789",
+    "defaultPrincipalId": "123456789",
+    "netId": null,
+    "user": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "hkey.huser",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$100000$BBlXz2KTGLEl$QW5HJcJ71LXJl/LCrljS2qLYeYPCfuc3irdZBh/dBX8=",
+    "last_login": "2021-04-12T17:35:51.676Z",
+    "is_superuser": false,
+    "username": "joe",
+    "first_name": "Joe",
+    "last_name": "Blow",
+    "email": "joe_blow@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-06-15T19:11:06Z",
+    "harvardEduIdNumber": "123xid567",
+    "defaultPrincipalId": "",
+    "netId": null,
+    "user": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "hkey.huser",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$V3oZGN3io467$Zc1Fz6KlesXjuvvVBmtHeBqwdj0+iDcno6roGD5PdDA=",
+    "last_login": "2022-12-07T22:23:44Z",
+    "is_superuser": false,
+    "username": "dr_fauci",
+    "first_name": "Anthony",
+    "last_name": "Fauci",
+    "email": "tony@example.edu",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-06-17T23:16:43Z",
+    "harvardEduIdNumber": "77788899",
+    "defaultPrincipalId": "77788899",
+    "netId": "porta003",
+    "user": "porta003",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "hkey.huser",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$GxT9NvnW7YGO$o3LkwJgw26HDuG2Gmr8p8SKQ33q7z0G0KmesFKOrO1Y=",
+    "last_login": "2023-05-26T19:32:02Z",
+    "is_superuser": false,
+    "username": "producer",
+    "first_name": "The",
+    "last_name": "Producer",
+    "email": "producer@studio.tv",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-07-17T16:19:58Z",
+    "harvardEduIdNumber": "12345567",
+    "defaultPrincipalId": "12345567",
+    "netId": "porta002",
+    "user": "porta002",
+    "groups": [
+      1
+    ],
+    "user_permissions": [
+      13,
+      14
+    ]
+  }
+},
+{
+  "model": "hkey.huser",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$SuiYlxeJnTOe$bZQSXaYsQCKMFim4xX0km/vcNL7TOSpQWMh4f+NPK90=",
+    "last_login": "2022-10-13T20:27:04.795Z",
+    "is_superuser": false,
+    "username": "dr_birx",
+    "first_name": "Deborah",
+    "last_name": "Birx",
+    "email": "birx@whats.up",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-07-24T22:40:19Z",
+    "harvardEduIdNumber": "66613369",
+    "defaultPrincipalId": "66613369",
+    "netId": null,
+    "user": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "hkey.huser",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$gokOBrztYYha$Cbefreo0TC13zKWNXRRPWYwKuLfPK+q3F5O+1t3T0QQ=",
+    "last_login": "2023-02-27T21:24:21Z",
+    "is_superuser": false,
+    "username": "support",
+    "first_name": "Tech",
+    "last_name": "Support",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-10-14T19:48:05Z",
+    "harvardEduIdNumber": "11223344",
+    "defaultPrincipalId": "11223344",
+    "netId": "porta001",
+    "user": "porta001",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "hkey.huser",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$1RhoRzwzI1Jd$M7UXl93tY1vk5ryey7LOcAFnTgbeQ2LFaQXp/UEAAEM=",
+    "last_login": "2023-12-22T20:42:11.094Z",
+    "is_superuser": false,
+    "username": "dokiadmin",
+    "first_name": "Admin",
+    "last_name": "Doki",
+    "email": "admin@doki.edu",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-11-14T23:09:33Z",
+    "harvardEduIdNumber": "56785678",
+    "defaultPrincipalId": "56785678",
+    "netId": "abc12345",
+    "user": "abc12345",
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "hkey.huser",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$RNU2zu9sY5Zb$wzXdehfW1cmeJETo5bcXvRC3tm644yEF/9CZXR25jjA=",
+    "last_login": "2023-12-14T18:53:29.569Z",
+    "is_superuser": false,
+    "username": "dokistaff",
+    "first_name": "Producer",
+    "last_name": "Doki",
+    "email": "producer@doki.edu",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-11-14T23:12:16Z",
+    "harvardEduIdNumber": "567891234",
+    "defaultPrincipalId": "567891234",
+    "netId": "doki0002",
+    "user": "doki0002",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "hkey.huser",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$TnW5Niqjb931$WdmLN/G1jocJ1nE5olNZ6sm6/Ze7DcncSbfwSftqJ/o=",
+    "last_login": "2024-01-10T23:11:03.665Z",
+    "is_superuser": false,
+    "username": "dokiworker",
+    "first_name": "Worker",
+    "last_name": "Doki",
+    "email": "worker@doki.edu",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-11-14T23:13:02Z",
+    "harvardEduIdNumber": "567891233",
+    "defaultPrincipalId": "567891233",
+    "netId": "doki0001",
+    "user": "doki0001",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
